@@ -1,0 +1,24 @@
+#! /bin/sh
+
+sxhkd -c /home/thbroad/.config/sxhkd/sxhkdrc &
+
+bspc monitor -d term code web vm chat
+
+./.config/polybar/launch.sh &
+./.config/bspwm/.fehbg &
+
+compton --config ~/.config/bspwm/compton.conf &
+xscreensaver -no-splash &
+
+bspc config border_width         0
+bspc config window_gap           10
+bspc config split_ratio          0.50
+bspc config top_padding          44
+
+bspc config borderless_monocle   true
+bspc config gapless_monocle      false
+
+bspc config focus_follows_pointer true
+
+bspc config automatic_scheme     longest_side
+bspc config initial_polarity     second_child

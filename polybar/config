@@ -1,0 +1,377 @@
+;✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇||
+;✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦||
+;✦✦✦✦]◩◩◩◩◩✦✦✦✦]◩◩✦✦✦✦]◩◩✦]◩◩✦✦✦✦]◩◩✦✦]◩◩✦✦✦✦✦✦✦✦✦]◩◩◩◩◩✦✦✦✦✦]◩◩◩◩◩✦✦✦✦||
+;✦✦]◩◩✦✦✦]◩◩✦✦✦]◩◩✦✦✦]◩◩✦✦]◩◩✦✦✦]◩◩✦✦]◩◩✦✦✦✦✦✦✦✦]◩◩✦✦✦]◩◩✦✦]◩◩✦✦✦]◩◩✦✦✦||
+;✦✦]◩◩✦✦]◩◩✦✦✦✦]◩◩✦✦✦]◩◩✦✦]◩◩✦✦✦]◩◩✦✦]◩◩]◩◩◩◩◩✦✦]◩◩✦✦✦]◩◩✦✦]◩◩✦✦]◩◩✦✦✦✦||
+;✦✦]◩◩◩◩◩]◩◩✦✦✦]◩◩◩◩◩◩◩◩✦✦]◩◩✦✦✦]◩◩✦✦]◩◩◩✦✦✦]◩◩✦]◩◩◩◩◩◩◩◩✦✦]◩◩◩◩◩]◩◩✦✦✦||
+;✦✦]◩◩✦✦✦]◩◩◩✦✦]◩◩✦✦✦]◩◩✦✦]◩◩✦✦✦]◩◩✦✦]◩◩✦✦✦]◩◩✦✦]◩◩✦✦✦]◩◩✦✦]◩◩✦✦✦]◩◩◩✦✦||
+;✦]◩◩✦✦✦✦]◩◩✦✦]◩◩✦✦✦✦]◩◩✦✦✦]◩◩◩◩◩✦✦✦✦✦]◩◩◩◩◩✦✦✦]◩◩✦✦✦✦]◩◩✦]◩◩✦✦✦✦]◩◩✦✦✦||
+;✦✦^^✦✦✦✦✦^^✦✦✦^^✦✦✦✦✦^^✦✦✦✦^^^^^✦✦✦✦✦✦^^^^^✦✦✦✦^^✦✦✦✦✦^^✦✦^^✦✦✦✦✦^^✦✦✦||
+;✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦||
+;✦✦✦✦✦✦✦✪✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✪✦✦✦✦✦✦✦||
+;✦✦✦✦✦✦✦✪    Property of tblob (and any needing a good bar)    ✪✦✦✦✦✦✦✦||
+;✦✦✦✦✦✦✦✪           Dotfiles at  https://github.com/           ✪✦✦✦✦✦✦✦||
+;✦✦✦✦✦✦✦✪ manpages at  https://github.com/polybar/polybar/wiki ✪✦✦✦✦✦✦✦||
+;✦✦✦✦✦✦✦✪✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✢✪✦✦✦✦✦✦✦||
+;✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦||
+;✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇✇||
+
+[colors]
+;background is dark gunmetal, jet and independence
+background = #1e152a
+background-alt = #32292e
+highlight = #04101f
+;foreground is vegas gold and licorice
+foreground = #d2bf55
+foreground-alt = #141414
+;color scheme from coolors.co
+primary = #3cb4bc
+secondary = #e43f6f
+tertiary = #46cca3
+tetranary = #ff7f68
+quinary = #af2bbf
+
+[bar/rhubar]
+width = 100%
+height = 16
+border-size = 3
+border-color = ${self.background}
+
+background = ${colors.background}
+foreground = ${colors.foreground-alt}
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = Overpass:style:SemiBold:size=9;1
+font-1 = Symbola:size=9;1
+font-2 = Abyssinica SIL:style=Regular:size=9;1
+font-3 = FreeSerif:style=Regular:size=9;1
+
+modules-left = battery volume
+modules-center = cpu memory wlan filesystem temperature
+modules-right = date
+
+wm-restack = none
+override-redirect = true
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/tubar]
+width = 100%
+height = 14
+bottom = false
+
+border-top-size = 22
+border-top-color = #00ffffff
+
+background = ${colors.background-alt}
+foreground = #b9f2ff
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 1
+module-margin-right = 1
+
+tray-position = none
+
+font-0 = B&H Lucida:style=Sans Italic:size=10;1
+font-1 = Overpass:style=SemiBold:size=10:1
+font-2 = Symbola:size=10;1
+
+modules-left = xwindow
+modules-center = bspwm
+modules-right =
+
+wm-restack = none
+override-redirect = true
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = AC
+full-at = 99
+
+format-discharging = 🔋  <ramp-capacity> <label-discharging>
+format-discharging-padding = 1
+format-discharging-background = ${colors.tertiary}
+
+format-charging = 🔋  <animation-charging> <label-charging>
+format-charging-padding = 1
+format-charging-background = ${colors.tertiary}
+
+format-full = 🔋  <ramp-capacity> <label-full>
+format-full-padding = 1
+format-full-foreground = ${colors.tertiary}
+
+label-charging = %time%
+label-discharging = %percentage%
+label-full = ✔
+
+ramp-capacity-font = 1
+animation-charging-font = 1
+
+ramp-capacity-0 = ◝
+ramp-capacity-1 = ◝
+ramp-capacity-2 = ◝
+ramp-capacity-3 = ◝
+ramp-capacity-4 = ◠
+ramp-capacity-5 = ◠
+ramp-capacity-6 = ◠
+ramp-capacity-7 = ◠
+ramp-capacity-8 = ○
+ramp-capacity-9 = ○
+ramp-capacity-10 = ◎
+ramp-capacity-11 = ◎
+ramp-capacity-12 = ◎
+ramp-capacity-13 = ◍
+ramp-capacity-14 = ◍
+ramp-capacity-15 = ◍
+ramp-capacity-16 = ◉
+ramp-capacity-17 = ◉
+ramp-capacity-18 = ●
+ramp-capacity-19 = ◙
+
+animation-charging-0 = ▲
+animation-charging-1 = ▲
+animation-charging-2 = ◮
+animation-charging-3 = ◬
+animation-charging-4 = △
+animation-charging-5 = ◇
+animation-charging-6 = ◈
+animation-charging-7 = ◆
+animation-charging-8 = ■
+animation-charging-9 = ▣
+animation-charging-10 = ◨
+animation-charging-11 = ◫
+animation-charging-12 = □
+animation-charging-13 = ▢
+animation-charging-14 = ○
+animation-charging-15 = ◎
+animation-charging-16 = ◍
+animation-charging-17 = ◑
+animation-charging-18 = ◉
+animation-charging-19 = ●
+animation-charging-20 = ●
+animation-charging-21 = ●
+animation-charging-22 = ●
+animation-charging-23 = ●
+animation-charging-24 = ◉
+animation-charging-25 = ◑
+animation-charging-26 = ◍
+animation-charging-27 = ◎
+animation-charging-28 = ○
+animation-charging-29 = ▢
+animation-charging-30 = □
+animation-charging-31 = ◫
+animation-charging-32 = ◨
+animation-charging-33 = ▣
+animation-charging-34 = ■
+animation-charging-35 = ◆
+animation-charging-36 = ◈
+animation-charging-37 = ◇
+animation-charging-38 = △
+animation-charging-39 = ◬
+animation-charging-40 = ◮
+animation-charging-41 = ▲
+animation-charging-42 = ▲
+animation-charging-43 = ▲
+animation-charging-framerate = 150
+
+[module/bkl-acpi]
+inherit = module/xbacklight
+type = internal/backlight
+card = amdgpu_bl0
+
+[module/bspwm]
+type = internal/bspwm
+format = <label-state> <label-mode>
+
+ws-icon-0 = term;️>_
+ws-icon-1 = code;📑
+ws-icon-2 = web;🌐
+ws-icon-3 = vm;️🖳
+ws-icon-4 = chat;💬
+urgency = ⋕❗
+
+label-focused = %name% %icon%
+label-focused-background = ${colors.highlight}
+label-focused-underline = ${colors.primary}
+label-focused-padding = 2
+
+label-occupied = %icon%
+label-occupied-underline = ${colors.secondary}
+label-occupied-padding = 2
+
+label-urgent = %urgency%
+label-urgent-underline = ${colors.tetranary}
+label-urgent-padding = 2
+
+label-empty = %icon%
+label-empty-padding = 2
+
+enable-scroll = false
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+
+format = ⶎ <label>
+format-prefix =
+format-background = ${colors.secondary}
+format-padding = 1
+
+label = %percentage%
+
+[module/date]
+type = internal/date
+interval = 5
+format-padding = 1
+
+date = %A, %B %d,
+time = %I:%M %p
+
+format = 📅 <label>
+format-prefix =
+format-background = ${colors.primary}
+label = %date% %time%
+
+[module/filesystem]
+type = internal/fs
+interval = 60
+format-mounted = <label-mounted>
+format-mounted-prefix =
+format-mounted-background = ${colors.quinary}
+format-mounted-padding = 1
+
+label-mounted = 💽 %mountpoint%: %used%/%total%
+
+mount-0 = /home
+
+[module/memory]
+type = internal/memory
+format = 🧠 <label>
+format-prefix =
+format-background = ${colors.primary}
+format-padding = 1
+
+label = %percentage_used% | %percentage_swap_used%
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon0/temp1_input
+units = false
+
+format = <label>
+format-background = ${colors.tetranary}
+format-padding = 1
+
+format-warn = <label-warn>
+format-warn-background = #e25822
+format-warn-padding = 1
+
+label = 🌡 %temperature-c%
+label-warn = 🔥 %temperature-c%
+
+base-temperature = 0
+warn-temperature = 44
+
+[module/volume]
+type = internal/alsa
+use-ui-max = true
+format-volume = <ramp-volume> <label-volume>
+format-volume-background = ${colors.quinary}
+format-volume-padding = 1
+format-muted-padding = 1
+
+label-muted = 🔇 shhhh
+label-muted-foreground = ${colors.quinary}
+
+label-volume = %percentage%
+ramp-volume-0 = 🔈
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
+
+[module/wlan]
+type = internal/network
+interface = wlp3s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-background = ${colors.tertiary}
+format-connected-padding = 1
+label-connected = %essid% |%downspeed:8:9%
+
+format-disconnected = <label-disconnected>
+format-disconnected-background = ${colors.background}
+label-disconnected = wifi disconnected
+label-disconnected-foreground = ${colors.foreground}
+
+ramp-signal-0 = ○
+ramp-signal-1 = ◔
+ramp-signal-2 = ◑
+ramp-signal-3 = ◕
+ramp-signal-4 = ●
+
+[module/xbacklight]
+type = internal/xbacklight
+
+format = <label> <bar>
+label = BL
+
+bar-width = 8
+bar-indicator = |
+bar-indicator-foreground = #000
+bar-indicator-font = 2
+bar-fill = ─
+bar-fill-font = 2
+bar-fill-foreground = #9f78e1
+bar-empty = ─
+bar-empty-font = 2
+bar-empty-foreground = ${colors.foreground-alt}
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.primary}
+label-indicator-underline = ${colors.alert}
+
+[module/xwindow]
+type = internal/xwindow
+format = <label>
+format-padding = 2
+
+label = 🖱 %title%
+label-maxlen = 45
+
+label-empty = 🖱 nuthin'
+label-empty-foreground = ${colors.primary}
+
+[settings]
+screenchange-reload = true
+pseudo-transparency = true
+
+[global/wm]
+;margin-top = 5
+;margin-bottom = 5
+
+; vim:ft=dosini
