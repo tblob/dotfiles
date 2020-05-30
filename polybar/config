@@ -33,7 +33,7 @@ quinary = #af2bbf
 
 [bar/rhubar]
 width = 100%
-height = 16
+height = 18
 border-size = 3
 border-color = ${self.background}
 
@@ -63,10 +63,10 @@ cursor-scroll = ns-resize
 
 [bar/tubar]
 width = 100%
-height = 14
+height = 16
 bottom = false
 
-border-top-size = 22
+border-top-size = 24
 border-top-color = #00ffffff
 
 background = ${colors.background-alt}
@@ -80,8 +80,8 @@ module-margin-right = 1
 
 tray-position = none
 
-font-0 = B&H Lucida:style=Sans Italic:size=10;1
-font-1 = Overpass:style=SemiBold:size=10:1
+font-0 = B&H Lucida:style=Sans Italic:size=9;1
+font-1 = Overpass:style=SemiBold:size=9:1
 font-2 = Symbola:size=10;1
 
 modules-left = xwindow
@@ -96,15 +96,15 @@ cursor-scroll = ns-resize
 
 [module/battery]
 type = internal/battery
-battery = BAT0
+battery = BAT1
 adapter = AC
 full-at = 99
 
-format-discharging = 🔋  <ramp-capacity> <label-discharging>
+format-discharging = 🔋  <label-discharging> <ramp-capacity>
 format-discharging-padding = 1
 format-discharging-background = ${colors.tertiary}
 
-format-charging = 🔋  <animation-charging> <label-charging>
+format-charging = 🔋  <label-charging> <animation-charging>
 format-charging-padding = 1
 format-charging-background = ${colors.tertiary}
 
